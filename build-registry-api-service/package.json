@@ -1,0 +1,14 @@
+{
+  "name": "agent-capability-registry",
+  "version": "1.0.0",
+  "description": "Capability discovery registry for ACPrompt agents",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node test/server.test.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  }
+}
